@@ -1,12 +1,24 @@
 .single-table {
   background-color: #404040;
-  color: #8c8c8c;
+  font-size: 13px;
+  color: #a6a6a6;
+  text-align: center;
   thead {
     tr {
       th {
-        font-size: 11px;
+        font-size: 13px;
         color: #a6a6a6;
+        text-align: center;
       }
     }
   }
+  tbody {
+    tr {
+        .badge {
+          color: #333333;
+          text-align: center;
+        }
+    }
+  }
 }
+

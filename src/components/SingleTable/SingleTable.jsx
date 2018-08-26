@@ -25,52 +25,52 @@ export default class SingleTable extends React.PureComponent {
           </thead>
           <tbody>
           <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">1</span></th>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
+            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
           </tr>
           <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">2</span></th>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
+            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
           </tr>
           <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">3</span></th>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
-            <td><span className="badge badge-info">67%</span></td>
+            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
+              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
           </tr>
           </tbody>
         </table>

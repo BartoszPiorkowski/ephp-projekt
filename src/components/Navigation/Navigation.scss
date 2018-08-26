@@ -1,19 +1,24 @@
 .navigation {
   .navbar {
-    background: #ffffff;
-
+    background: #1a1a1a;
+    .navbar-brand {
+      color: #a6a6a6;
+    }
     .nav-item {
       .nav-link {
-        color: #27ae60;
+        color: #a6a6a6;
         font-weight: 600;
       }
 
       &.active {
-        background: #27ae60;
+        background: #a6a6a6;
         .nav-link {
-          color: #ffffff;
+          color: #1a1a1a;
         }
       }
+    }
+    .dropdown-menu {
+      background: #404040;
     }
   }
 }

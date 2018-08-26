@@ -9,7 +9,7 @@ export default class DataTable extends React.PureComponent {
     return (
       <div className="data-table">
         <TableTitle
-          title="napisik"
+          title="Farm"
         />
         <SingleTable
           /*data=*/
