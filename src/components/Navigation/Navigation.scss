@@ -1,0 +1,20 @@
+.navigation {
+  .navbar {
+    background: #ffffff;
+
+    .nav-item {
+      .nav-link {
+        color: #27ae60;
+        font-weight: 600;
+      }
+
+      &.active {
+        background: #27ae60;
+        .nav-link {
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}
+
