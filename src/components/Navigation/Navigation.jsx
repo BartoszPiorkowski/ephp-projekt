@@ -3,6 +3,32 @@ import PropTypes from 'prop-types';
 import './Navigation.scss';
 
 export default class Navigation extends React.PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      isOnTop: false,
+    }
+
+    this.handleScroll = this.handleScroll.bind(this)
+  }
+
+  componentDidMount() {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
+  }
+
+  handleScroll() {
+    const scrollY = window.scrollY;
+    let newState = false;
+    scrollY >= 100 ? newState = true : newState = false;
+
+    this.setState({
+      isOnTop: newState,
+    })
+  };
     render() {
         const links = this.props.links;
       const renderNavigationLinks = () => (
@@ -36,7 +62,7 @@ export default class Navigation extends React.PureComponent {
 
         return (
             <div className="navigation">
-              <nav className="navbar navbar-expand-lg navbar-light sticky-top">
+              <nav className={`navbar navbar-dark navbar-expand-md fixed-top ${this.state.isOnTop ? 'navbar--fix-on-top' : ''} `}>
                 <div className="container">
                   <a className="navbar-brand" href="#">LOGO</a>
                   <button className="navbar-toggler" type="button" data-toggle="collapse"
@@ -46,7 +72,7 @@ export default class Navigation extends React.PureComponent {
                   </button>
 
                   <div className="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul className="navbar-nav d-md-flex flex-row ml-md-auto">
+                    <ul className="navbar-nav d-md-flex flex-row ml-md-auto flex-column flex-md-row">
                       {
                           renderNavigationLinks()
                       }

@@ -1,13 +1,16 @@
+@import "../../style/variables";
+
 .single-table {
   background-color: #404040;
   font-size: 13px;
-  color: #a6a6a6;
+  color: $my-grey;
   text-align: center;
+
   thead {
     tr {
       th {
         font-size: 13px;
-        color: #a6a6a6;
+        color: $my-grey;
         text-align: center;
       }
     }

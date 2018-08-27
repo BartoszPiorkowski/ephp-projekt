@@ -9,10 +9,11 @@ export default class DataTable extends React.PureComponent {
     return (
       <div className="data-table">
         <TableTitle
-          title="Farm"
+          title={this.props.title}
         />
         <SingleTable
-          /*data=*/
+          data={this.props.tables}
+          id={this.props.tableId}
         />
       </div>
     )
@@ -20,5 +21,7 @@ export default class DataTable extends React.PureComponent {
 }
 
 DataTable.propTypes = {
-
-}
+  title: PropTypes.string,
+  tables: PropTypes.array,
+  tableId: PropTypes.string,
+};

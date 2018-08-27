@@ -34,3 +34,551 @@ export const links = [
     ]
   }
 ];
+export const dataTable = [
+  {
+    title: "armf",
+    id: "a",
+    tables: [
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ]
+    ]
+  },
+  {
+    title: "farm",
+    id: "a",
+    tables: [
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ]
+    ]
+  },
+  {
+    title: "farm",
+    id: "a",
+    tables: [
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ]
+    ]
+  },
+  {
+    title: "farm",
+    id: "a",
+    tables: [
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ],
+      [
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+        {
+          value1: 67,
+          value2: 67,
+          value3: 30,
+        },
+      ]
+    ]
+  }
+]

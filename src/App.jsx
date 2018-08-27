@@ -1,7 +1,7 @@
 import React from 'react';
 import Navigation from './components/Navigation/Navigation';
 import DataTable from './components/DataTable/DataTable';
-import {links} from './config';
+import {links, dataTable} from './config';
 
 export default class App extends React.PureComponent {
     render() {
@@ -11,21 +11,13 @@ export default class App extends React.PureComponent {
             links={links}
           />
           <div className="container">
-            <DataTable
-            /*  table={table}*/
-            />
-            <DataTable
-              /*  table={table}*/
-            />
-            <DataTable
-              /*  table={table}*/
-            />
-            <DataTable
-              /*  table={table}*/
-            />
-            <DataTable
-              /*  table={table}*/
-            />
+            {
+              dataTable.map((table) => <DataTable
+                title={table.title}
+                tableId={table.id}
+                tables={table.tables}
+              />)
+            }
           </div>
         </div>
       )

@@ -1,24 +1,31 @@
+@import "../../style/variables";
+
 .navigation {
   .navbar {
     background: #1a1a1a;
-    .navbar-brand {
-      color: #a6a6a6;
+    transition: padding 600ms;
+
+    &.navbar--fix-on-top {
+      padding: 10px 8px;
     }
+
+    .navbar-toggler {
+      background-color: #333333;
+    }
+
+    .navbar-brand {
+      color: $my-grey;
+    }
+
     .nav-item {
       .nav-link {
-        color: #a6a6a6;
+        color: $my-grey;
         font-weight: 600;
       }
-
-      &.active {
-        background: #a6a6a6;
-        .nav-link {
-          color: #1a1a1a;
-        }
-      }
     }
+
     .dropdown-menu {
-      background: #404040;
+      background: $my-grey;
     }
   }
 }

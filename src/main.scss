@@ -3,5 +3,8 @@
 
 html, body {
   background: #000000;
-  color: #a6a6a6;
+  color: $my-grey;
+}
+.app {
+  padding-top: 100px;
 }

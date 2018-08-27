@@ -1,79 +1,60 @@
 import React from 'react';
 import './SingleTable.scss';
+import PropTypes from 'prop-types';
 
 export default class SingleTable extends React.PureComponent {
+  constructor(props) {
+    super(props)
+
+    this.renderSingleRow = this.renderSingleRow.bind(this);
+  }
+
+  renderSingleRow() {
+    const tables = this.props.data;
+
+    return tables.map((singleTable) => (
+      <tr>
+        <th scope="row"><span className="badge badge-pill badge-primary">{this.props.id}</span></th>
+        {
+          singleTable.map((value) => <td>{value.value1}<sup>o</sup><span className="badge badge-info">{value.value2}</span>
+              <div>{value.value3}</div>
+            </td>
+          )
+        }
+      </tr>
+      )
+    )
+  }
+
   render() {
+    const renderTableNumber = () => {
+      let renderElements = [];
+      for(let i=0; i<13; i++){
+        renderElements.push(<th key={i} scope="col">{i}</th>)
+      }
+      return renderElements;
+    }
     return (
         <table className="single-table table table-dark">
           <thead>
           <tr>
             <th scope="col"></th>
-            <th scope="col">0</th>
-            <th scope="col">1</th>
-            <th scope="col">2</th>
-            <th scope="col">3</th>
-            <th scope="col">4</th>
-            <th scope="col">5</th>
-            <th scope="col">6</th>
-            <th scope="col">7</th>
-            <th scope="col">8</th>
-            <th scope="col">9</th>
-            <th scope="col">10</th>
-            <th scope="col">11</th>
-            <th scope="col">12</th>
+            {
+              renderTableNumber()
+            }
           </tr>
           </thead>
           <tbody>
-          <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-          </tr>
-          <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-          </tr>
-          <tr>
-            <th scope="row"><span className="badge badge-pill badge-primary">A</span></th>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-              <td>67<sup>o</sup><span className="badge badge-info">67%</span><div>30,31</div></td>
-          </tr>
+          {
+            this.renderSingleRow()
+          }
           </tbody>
         </table>
     )
   }
 }
+
+SingleTable.propTypes = {
+  data: PropTypes.array,
+  id: PropTypes.string,
+};
